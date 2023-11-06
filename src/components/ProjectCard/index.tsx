@@ -6,7 +6,7 @@ interface ProjetcCardProps {
   description: string,
   linkGitHub: string,
   linkProjeto: string,
-  inProduction: boolean
+  inProduction: boolean,
 }
 
 export default function ProjectCard(props: ProjetcCardProps) {

@@ -5,11 +5,15 @@ export const Container = styled.header`
   background-color: ${({ theme }) => theme.colors.background_white};
   box-shadow: 0 5.333px 80px 0 rgba(0,0,0,.1);
 
-  main {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+
+  div {
     display: flex;
     height: 100%;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 16px;
 
     ul {
@@ -25,6 +29,16 @@ export const Container = styled.header`
       li:hover {
         color: ${({ theme }) => theme.colors.secondary};
       }
+    }
+  }
+
+  @media (max-width: 620px) {
+    .button {
+      display: none;
+    }
+
+    .list {
+      justify-content: center;
     }
   }
 `

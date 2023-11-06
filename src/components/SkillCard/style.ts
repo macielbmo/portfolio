@@ -8,6 +8,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   gap: 15px;
+  margin: 0 auto;
 
 
   .box-img {
@@ -19,8 +20,9 @@ export const Container = styled.div`
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25)
   }
 
-  .box-img img {
-    width: 100%;
+  .box-img span {
+    font-size: 50px;
+    text-align: center;
   }
 
   h1 {

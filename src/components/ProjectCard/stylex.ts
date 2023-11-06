@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 480px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
 
   .box-img-project {
     position: relative;
@@ -16,11 +18,12 @@ export const Container = styled.div`
       height: 100%;
       object-fit: cover;
       border-radius: 15px;
+      box-shadow: 0px 10px 10px 0 rgba(0,0,0,.2);
     }
   }
 
   .box-content-project {
-      height: 180px;
+      height: auto;
 
       background-color: ${({ theme }) => theme.colors.background_white};
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -34,6 +37,7 @@ export const Container = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      gap: 20px;
 
       .header {
         display: flex;

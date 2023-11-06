@@ -1,7 +1,9 @@
+import { ReactNode } from 'react'
 import { Container } from "./style";
 
 interface SkillCardProps {
-  icon: string,
+  icon: ReactNode,
+  color: string,
   title: string,
   description: string
 }
@@ -10,7 +12,7 @@ export default function SkillCard(props: SkillCardProps) {
   return(
     <Container>
       <div className="box-img">
-        <img src={props.icon} alt={props.title} />
+        <span style={{color: props.color}}>{props.icon}</span>
       </div>
 
       <h1>{props.title}</h1>
