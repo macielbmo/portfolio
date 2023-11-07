@@ -9,16 +9,15 @@ export const Container = styled.header`
   position: fixed;
   z-index: 1;
 
-  div {
+  .list {
     display: flex;
-    height: 100%;
-    align-items: center;
     justify-content: space-between;
-    font-size: 16px;
 
     ul {
+      width: 50%;
       display: flex;
-      gap: 35px;
+      align-items: center;
+      justify-content: space-around;
 
       li {
         list-style: none;
@@ -32,13 +31,25 @@ export const Container = styled.header`
     }
   }
 
-  @media (max-width: 620px) {
+  @media (max-width: 890px) {
+    padding: 15px 20px;
+
+    .list ul {
+      width: 100%;
+    }
+
     .button {
       display: none;
     }
 
     .list {
       justify-content: center;
+    }
+  }
+
+  @media (max-width: 460px) {
+    li {
+      font-size: 12px;
     }
   }
 `

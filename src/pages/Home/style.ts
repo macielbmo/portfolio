@@ -34,7 +34,7 @@ export const PresentationSection = styled.section`
   width: 100%;
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(640px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
   gap: 32px;
 
   align-items: center;
@@ -47,6 +47,7 @@ export const PresentationSection = styled.section`
   }
 
   .information {
+    width: 100%;
     color: ${({ theme }) => theme.colors.primary};
 
     display: flex;
@@ -68,7 +69,7 @@ export const PresentationSection = styled.section`
     height: auto;
   }
 
-  @media (max-width: 1080px) {
+  @media (max-width: 1178px) {
     .information {
       align-items: center;
       text-align: center;
@@ -77,9 +78,7 @@ export const PresentationSection = styled.section`
 
   @media (max-width: 768px) {
     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-  }
 
-  @media (max-width: 375px) {
     .information {
       h3 {
         font-size: 14px;

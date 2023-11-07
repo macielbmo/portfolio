@@ -12,7 +12,7 @@ interface ContatoCardProps {
 export default function ContatoCard(props: ContatoCardProps) {
   return(
     <Container>
-      <a href={props.link}>
+      <a href={props.link} target='_blank'>
         <div className="img">
           <span>{props.icon}</span>
         </div>

@@ -27,7 +27,11 @@ export default function Home() {
 
             <h1>Desenvolvedor Front-End</h1>
 
-            <ButtonFilled text="Currículo"/>
+            <a
+              href="https://drive.google.com/file/d/1TxiAt7KWlPLAJYHvzLkCZ5eSIKs8UTCo/view?usp=sharing"
+              target="_blank">
+                <ButtonFilled text="Currículo"/>
+            </a>
           </div>
 
           <div className="data image">
@@ -58,10 +62,11 @@ export default function Home() {
 
           <div className="data-about content-about">
             <h1>Sobre</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officiis sit debitis omnis harum sed veniam quasi dicta accusamus recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam tempora numquam sint odit optio.
-<br />
-<br />
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem officiis sit debitis omnis harum sed veniam quasi dicta accusamus recusandae?</p>
+            <p>Possuo experiencia em atendimento ao cliente, adiquirida durante meu trabalho na UseCar Carsharing, empresa de tecnologia e locação de veículos.
+              <br/>
+              <br/>
+              A um ano venho estudando e construindo projetos Front-end com React.js, JavaScript, TypeScript, Styled Components e consumo de APIs REST com a interface Fetch do JavaScript.
+            </p>
           </div>
         </AboutSection>
 
