@@ -3,7 +3,7 @@ import { Container } from "./style";
 
 
 export default function Header(): JSX.Element {
-  const scrollToSection = (id) => {
+  const scrollToSection = (id: string) => {
     const targetSection = document.getElementById(id);
     if (targetSection) {
       window.scrollTo({
