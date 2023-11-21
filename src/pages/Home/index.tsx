@@ -63,10 +63,10 @@ export default function Home() {
 
           <div className="data-about content-about">
             <h1>Sobre</h1>
-            <p>Possuo experiencia em atendimento ao cliente, adiquirida durante meu trabalho na UseCar Carsharing, empresa de tecnologia e locação de veículos.
+            <p>Iniciei minha carreira há 3 anos, prestando Suporte ao Cliente, em uma Startup e no momento trabalho como Assistente de TI.
               <br/>
               <br/>
-              A um ano venho estudando e construindo projetos Front-end com React.js, JavaScript, TypeScript, Styled Components e consumo de APIs REST com a interface Fetch do JavaScript.
+              Em paralelo venho estudando programação nos últimos anos e possuo experiencia como desenvolvedor FullStack nas seguintes tecnologias: Nodejs, Postgresql, MongoDb, ReactJs, Styled-Components, HTML, CSS e em GIT para o versionamento de código.
             </p>
           </div>
         </AboutSection>
