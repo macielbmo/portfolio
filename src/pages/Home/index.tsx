@@ -29,7 +29,7 @@ export default function Home() {
             <h1>Desenvolvedor FullStack</h1>
 
             <a
-              href="https://drive.google.com/file/d/1TxiAt7KWlPLAJYHvzLkCZ5eSIKs8UTCo/view?usp=sharing"
+              href="https://drive.google.com/file/d/1czW2Xk_SGvKWOwfkh2btDXXeYn8D1-et/view?usp=sharing"
               target="_blank">
                 <ButtonFilled text="Currículo"/>
             </a>
