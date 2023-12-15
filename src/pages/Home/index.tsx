@@ -185,9 +185,9 @@ const dataProject = [
     image: rotaAereaImg,
     title: 'Rota Aérea',
     description: 'Site de noticias construido em ReactJs, com TypeScript, Styled-Components e outras tecnologias.',
-    linkGitHub: '',
-    linkProjeto: '',
-    inProduction: true
+    linkGitHub: 'https://github.com/macielbmo/rotaaerea',
+    linkProjeto: 'https://rotaaerea.vercel.app/',
+    inProduction: false
   },
   {
     id: 3,
